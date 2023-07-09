@@ -1,0 +1,59 @@
+.employee_login {
+  background-image: url("../../assets/login_page.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: auto;
+}
+.employee_login_content {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  text-align: center;
+  height: auto;
+  margin-left: 10%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.employee_login_details {
+  display: flex;
+  flex-direction: column;
+
+  gap: 50px;
+}
+.email_login,
+.password_login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.email_login input[type="email"],
+.password_login input[type="password"] {
+  width: 80%;
+  background: transparent;
+  color: #fff;
+  border: 1px solid #a5b9c9;
+}
+input[type="email"]::placeholder,
+input[type="password"]::placeholder {
+  color: #fff;
+}
+.employee_login_button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #2390e2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.employee_login_button:hover {
+  background-color: #69fefc;
+  color: black;
+}
+.employee_login_content h2 {
+  text-align: center;
+  padding: 5% 0;
+}

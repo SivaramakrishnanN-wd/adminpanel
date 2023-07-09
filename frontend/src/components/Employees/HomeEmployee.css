@@ -1,0 +1,39 @@
+.employee_all_details {
+  border-radius: 50%;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  width: 20%;
+  text-align: center;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.employee_list table {
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  text-align: center;
+  border: 1px solid #797575;
+  font-size: 1.5rem;
+}
+.employee_list thead {
+  line-height: 3rem;
+}
+.employee_list td {
+  border: 1px solid #797575;
+  line-height: 5rem;
+}
+.employee_list .button {
+  padding: 20px 30px;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.employee_list .button:hover {
+  background-color: #69fefc;
+  color: black;
+}
